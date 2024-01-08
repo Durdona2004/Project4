@@ -1,0 +1,269 @@
+
+*{
+    padding: 0;
+    margin:0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.box{
+    max-width: 1600px;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
+}
+.link a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.link input{
+    margin-right: 100px;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.quti1{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./soat.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: bottom -20% right -23%;
+    border-bottom: 3px solid grey;
+
+
+}
+.matn{
+    width: 50%;
+    padding: 50px;
+
+}
+.soat{
+    width: 50%;
+}
+.matn h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.matn h2:hover{
+    background-color: rgb(20, 224, 30);
+    color: blue;
+    box-shadow: 0 0 10px 10px red;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+.matn p{
+    font-size: 17px;
+    width: 400px;
+    border-left: 4px solid gray;
+    padding: 20px;
+    
+
+}
+.matn p:hover{
+    color: whitesmoke;
+    background-color: crimson;
+    box-shadow: 0 0 3px 3px purple;
+    transition: 0.6s;
+}
+.matn button{
+    padding: 10px 20px;
+    font-weight: bold;
+    color:white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.matn button:hover{
+    box-shadow: 0 0 20px 10px blue;
+    color: rgb(108, 11, 199);
+    background-color:aqua ;
+    font-weight: bold;
+    transform: scale(1.2);
+    transform: 0.6s;
+}
+.soat{
+    width: 100%;
+    height: 70vh;
+
+}
+.yozuv{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+    margin-top: 4%;
+}
+.box1{
+    width: 350px;
+    height: 50px;
+}
+.box h3{
+    margin-bottom: 10px;
+}
+.box h3:hover{
+    box-shadow: 0px 0px 5px 5px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: yellow;
+    color: blue;
+    transform: rotate(360deg);
+    transition: 0.8s;
+
+}
+.box1 p{
+    text-align: justify;
+}
+.box p:hover{
+    color:blue;
+    background-color: greenyellow;
+    box-shadow: 0 0 10px 10px green;
+    transition: 0.6s;
+}
+.box1 h2{
+    color: red;
+    margin-top: 40px;
+
+
+}
+.box1 h2:hover{
+    color: purple;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+.quti3{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.main{
+    width: 50%;
+}
+.rasm{
+    width: 50%;
+}
+.rasm:hover{
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+.main h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.main h3:hover{
+    background-color: rgb(61, 20, 224);
+    color: white;
+    box-shadow: 0 0 10px 10px aqua;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+.main p{
+    font-size: 16px;
+    width: 400px;
+    border-left: 4px solid gray;
+    padding: 20px;
+    
+}
+.main button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color:white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.main button:hover{
+    box-shadow: 0 0 20px 10px blue;
+    color: rgb(108, 11, 199);
+    background-color:aqua ;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 0.6s;
+}    
+.rasm img{
+    width: 450px;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-image: url('./yugurish.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.quti4{
+    width: 50%;
+
+}
+.qut5 h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.quti5 h3:hover{
+    color: lime;
+    transform: rotate(360deg);
+    transition: 0.7s;
+}
+.quti5 p{
+    font-size: 16px;
+    width: 400px;
+    border-left: 4px solid gray;
+    padding: 20px;
+    
+}
+.quti5 p:hover{
+    background-color: rgb(61, 20, 224);
+    color: white;
+    box-shadow: 0 0 10px 10px aqua;
+    transform: rotate(360deg);
+    transition: 0.6s;
+    font-size: large;
+}
+.quti5 button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color:white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.quti5 button:hover{
+        box-shadow: 0 0 20px 10px blue;
+        color: rgb(108, 11, 199);
+        background-color:aqua ;
+        font-weight: bold;
+        transform: scale(1.2);
+        transition: 0.6s;
+}  
